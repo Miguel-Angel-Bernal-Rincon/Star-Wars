@@ -1,13 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
-  <title>Starwars</title>
+  <title>Star Wars</title>
   <base href="/">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon"  type="image/x-icon" href="favicon.ico">
+
+  <!-- Cargar Librerias-->
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css_"/>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylessheet" type="text/css" href="assets/css/styles.css">
 </head>
+
+<style>
+ body::after {
+             content: "";
+  background-image: url("Imagen-Fondo.png");
+             top: 0;
+             left: 0;
+             bottom: 0;
+             right: 0;
+             position: absolute;
+             z-index: -1;
+ }
+</style>
+
 <body>
-  <app-root></app-root>
-</body>
+
+  <div class="col-md-2">
+    <img src="assets/Logo.png" class="img-responsive" width="400" height="250"/>
+    <div class="h-10"></div>
+
+  </div>
+  <app-root class="container col-lg-6 col lg-offset-3">Cargando...</app-root>
+  </body>
 </html>
