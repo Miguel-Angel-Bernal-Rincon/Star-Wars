@@ -1,11 +1,5 @@
-.navigation, .navigation li {
-  margin:0;
-  padding:0;
-}
-.navigation li {
-  border-top: 1px solid white;
-  list-style-type:none
-}
+
+
 .navigation li a {
   background:
   #E2E2E2 url(src/assets/Imagen-Fondo.png)
@@ -16,7 +10,12 @@
   color:#333;
   font-size:18px;
   text-decoration:none
+
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
 /* hover effects */
 .navigation li a:hover, .navigation li a:focus{
   background: transparent none;
@@ -26,34 +25,5 @@ img{
   margin:auto;
   }
 
-  #menu {
-    width: auto;
-    height: 50px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -16px; /* Margen superior negativo para pegar el menu al div con id "fondo_encabezado" */
-    }
-
-    #boton {
-    padding: 0px;
-    margin: auto;
-    /*margin-left: 28%; /* Modificar el margin para centrar los botones cuando se añado o quite alguno */
-    }
-
-    #boton li {
-    display: inline;
-
-    }
-
-    #boton li a {
-    line-height: 30px;
-    font-family: Arial;
-    font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    color: #fff;
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase;
-
-    }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
